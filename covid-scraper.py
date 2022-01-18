@@ -1,12 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 import sys
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import csv
-
 
 URL = 'https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases'
 headers ={'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36'}
